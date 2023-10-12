@@ -1,11 +1,11 @@
 import {
     combineReducers
 } from "redux";
-
-
+import searchBooks from "../reducer/SearchSlice";
 
 const createReducer = (asyncReducer) => (state, action) => {
     const combineReducer = combineReducers({
+        searchBooks,
         ...asyncReducer,
     });
 
