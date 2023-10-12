@@ -5,7 +5,7 @@ import {
 import { instance } from "../setup/api";
 
 
-const API_KEY = 'AIzaSyBHap-0fiRQsljrDyBhJEMgYj0oxnuzyKM';
+const API_KEY = 'Здесь api key. Для безопасности не стала заливать в гихаб';
 
 
 export const fetchBooks = createAsyncThunk(
